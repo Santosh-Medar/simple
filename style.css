@@ -108,7 +108,7 @@ body {
 }
 
 .mentor-image {
-  flex: 1 1 35%;
+  flex: 1 1 50%;
   display: flex;
   justify-content: center;
 }
@@ -397,3 +397,4 @@ button:hover {
   font-size: 14px;
   border-top: 1px solid #ddd;
 }
+
