@@ -8,34 +8,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section class="hero">
-    <div class="hero-content">
-      <h1 id="first">
-        Turn Your Free Time Into <br />
-        <span class="highlight">Online Income 💻</span>
-      </h1><br>
-      <p>
-        Whether you’re a student, housewife, or working professional – learn how to start earning digitally from Day 1.
-      </p>
-      <a href="#form-section" class="cta-btn">Register Free & Watch Now  →</a>
-    </div>
-  </section>
+    <section class="hero">
+        <div class="hero-content">
+        <h1 id="first">
+            Turn Your Free Time Into <br />
+            <span class="highlight">Online Income 💻</span>
+        </h1><br>
+        <p>
+            Whether you’re a student, housewife, or working professional – learn how to start earning digitally from Day 1.
+        </p>
+        <a href="#form-section" class="cta-btn">Register Free & Watch Now  →</a>
+        </div>
+    </section>
     <section class="mentor">
-  <h2>Meet Your Mentor – Prithviraj</h2>
-  <div class="mentor-container">
-    <div class="mentor-text">
-      <p>
-        I'm Prithviraj – an Entrepreneur, Creator & Mentor. I started from a small town
-        in Karnataka with zero resources, and today I lead 10,000+ people in building digital
-        businesses. I believe every Indian deserves financial freedom. That's why I created
-        this free masterclass — to show you the same system that changed my life.
-      </p>
-    </div>
-    <div class="mentor-image">
-      <img src="profile.jpg" alt="Prithviraj" />
-    </div>
-  </div>
-</section>
+        <h2>Meet Your Mentor – Prithviraj</h2>
+        <div class="mentor-container">
+            <div class="mentor-text">
+            <p>
+                I'm Prithviraj – an Entrepreneur, Creator & Mentor. I started from a small town
+                in Karnataka with zero resources, and today I lead 5000+ people in building digital
+                businesses. I believe every Indian deserves financial freedom. That's why I created
+                this free masterclass — to show you the same system that changed my life.
+            </p>
+            </div>
+            <div class="mentor-image">
+            <img src="profile.jpg" alt="Prithviraj" />
+            </div>
+        </div>
+    </section>
 
     <section class="learn-section">
         <div class="learn-container">
@@ -79,52 +79,59 @@
             </div>
         </div>
     </section>
-    <section class="form-section">
-      <div class="form-container" id="form-section">
-        <h2>Register Now to Watch Instantly!</h2>
-        <form id="registerForm">
-          <div class="form-group">
-            <label for="name">Name *</label>
-            <input type="text" id="name" placeholder="Enter your name" required>
-          </div>
-    
-          <div class="form-row">
+    <section class="form-section" >
+        <div class="form-container" id="form-section">
+            <h2>Register Now to Watch Instantly!</h2>
+            <form >
             <div class="form-group">
-              <label for="whatsapp">WhatsApp *</label>
-              <input type="tel" id="whatsapp" placeholder="Enter your WhatsApp number" required>
+                <label for="name">Name *</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
             </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                <label for="whatsapp">WhatsApp *</label>
+                <input type="tel" id="whatsapp" placeholder="Enter your WhatsApp number" required>
+                </div>
+                <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                <label for="age">Age *</label>
+                <input type="number" id="age" placeholder="Enter your age" required>
+                </div>
+                <div class="form-group">
+                <label for="state">State *</label>
+                <select id="state" required><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" class="swXR5ox"><path fill-rule="evenodd" d="M18.2546728,8.18171329 L18.9617796,8.88882007 L12.5952867,15.2537133 L12.5978964,15.2558012 L11.8907896,15.962908 L11.8882867,15.9607133 L11.8874628,15.9617796 L11.180356,15.2546728 L11.1812867,15.2527133 L4.81828671,8.88882007 L5.52539349,8.18171329 L11.8882867,14.5457133 L18.2546728,8.18171329 Z"></path></svg>
+                    <option value="" selected>Select State</option>
+                    <option>Karnataka</option>
+                    <option>Maharashtra</option>
+                    <option>Tamil Nadu</option>
+                    <option>Delhi</option>
+                    <option>Other</option>
+                </select>
+                </div>
+            </div>
+
             <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="profession">Profession</label>
+                <select id="profession" id="profession" placeholder="Select your profession" required><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" class="swXR5ox"><path fill-rule="evenodd" d="M18.2546728,8.18171329 L18.9617796,8.88882007 L12.5952867,15.2537133 L12.5978964,15.2558012 L11.8907896,15.962908 L11.8882867,15.9607133 L11.8874628,15.9617796 L11.180356,15.2546728 L11.1812867,15.2527133 L4.81828671,8.88882007 L5.52539349,8.18171329 L11.8882867,14.5457133 L18.2546728,8.18171329 Z"></path></svg>
+                    <option value="" selected>Select Profession</option>
+                    <option>Student</option>
+                    <option>Employee</option>
+                    <option>Housewife</option>
+                    <option>Unemployed</option>
+                    <option>Other</option>
+                </select>
             </div>
-          </div>
-    
-          <div class="form-row">
-            <div class="form-group">
-              <label for="age">Age *</label>
-              <input type="number" id="age" placeholder="Enter your age" required>
-            </div>
-            <div class="form-group">
-              <label for="state">State *</label>
-              <select id="state" required>
-                <option value="">Select State</option>
-                <option>Karnataka</option>
-                <option>Maharashtra</option>
-                <option>Tamil Nadu</option>
-                <option>Delhi</option>
-                <option>Other</option>
-              </select>
-            </div>
-          </div>
-    
-          <div class="form-group">
-            <label for="profession">Profession</label>
-            <input type="text" id="profession" placeholder="Enter your profession">
-          </div>
-    
-          <button type="submit">Watch Free Masterclass Now</button>
-        </form>
-      </div>
+
+            <button type="button">Watch Free Masterclass Now</button>
+            </form>
+        </div>
     </section>
     <section class="testimonials">
         <h2>What People Are Saying</h2>
@@ -164,7 +171,7 @@
         </div>
     </section>
     <footer class="footer">
-        <p>(c) 2025 by Sourav Sharma. All Rights Reserved.</p>
+        <p>(c) 2026 by Prithviraj. All Rights Reserved.</p>
     </footer>
     <script>
     document.getElementById('registerForm').addEventListener('submit', function(e) {
@@ -182,4 +189,5 @@
   </script>
 </body>
 </html>
+
 
